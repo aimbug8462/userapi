@@ -5,6 +5,7 @@ const users = require('./routes/users');
 const auth = require('./routes/auth');
 const express = require('express');
 const app = express();
+
  
 mongoose.connect('mongodb://localhost/testdb')
     .then(() => console.log('Now connected to MongoDB!'))
